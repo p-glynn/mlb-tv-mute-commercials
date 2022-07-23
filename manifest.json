@@ -1,0 +1,11 @@
+{
+    "name": "MLB.TV - Mute Commercials",
+    "version": "1.0.0",
+    "description": "Mute Commercials by Default on MLB.TV",
+    "manifest_version": 1,
+    "author": "PGlynn",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    }
+}
