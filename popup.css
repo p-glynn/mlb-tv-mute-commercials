@@ -1,0 +1,22 @@
+body {
+    width: 200px;
+    padding: 16px;
+}
+button {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.activate-btn {
+    background-color: lightgreen;
+    margin-bottom: 8px;
+}
+
+.deactivate-btn {
+    background-color: lightcoral;
+}

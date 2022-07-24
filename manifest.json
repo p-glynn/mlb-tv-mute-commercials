@@ -2,10 +2,22 @@
     "name": "MLB.TV - Mute Commercials",
     "version": "1.0.0",
     "description": "Mute Commercials by Default on MLB.TV",
-    "manifest_version": 1,
+    "manifest_version": 3,
     "author": "PGlynn",
-    "action":{
+    "content_scripts": [
+        {
+          "matches": [
+                "https://www.mlb.com/tv/*",
+                "https://mlb.com/tv/*"
+            ],
+            "js": ["content-script.js"],
+            "run_at": "document_idle",
+            "all_frames": true
+        }
+    ],
+    "permissions": ["activeTab"],
+    "action": {
         "default_popup": "index.html",
-        "default_title": "Latest Covid Report"
+        "default_title": "Test"
     }
 }
