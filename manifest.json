@@ -4,6 +4,10 @@
     "description": "Mute Commercials by Default on MLB.TV",
     "manifest_version": 3,
     "author": "PGlynn",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
     "content_scripts": [
         {
           "matches": [
