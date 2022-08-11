@@ -5,8 +5,7 @@
     "manifest_version": 3,
     "author": "PGlynn",
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+        "service_worker": "background.js"
     },
     "content_scripts": [
         {
